@@ -6,8 +6,6 @@
 
 개발일지: https://rkyoung7.notion.site/Portfolio-Web-e0208ec4962645c494ed33071da34cae
 
-<hr />
-
 ## 디자인 참고  
 
 최우선으로 생각했던 것은 1년만에 다시 코딩을 하게 되어 기억을 되새기고,  
