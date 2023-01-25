@@ -1,21 +1,21 @@
-
-
-.firstpage{
+.firstpage {
+  font-family: 'NEXEN_TIRE_Bold';
+  font-size: 4vh;
+  
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  /*height: auto;*/
   min-height: 100vh;
 
-  background-image:url('../../public/wave.png') ;
+  background-image: url('../../public/wave.png');
   background-repeat: no-repeat;
   background-size: cover;
-  color:steelblue;
-  font-size: 4vh;
+  color: steelblue;
+  
 }
 
-h1{
+h1 {
   margin: 0.1rem;
   letter-spacing: 0.2rem;
 }
