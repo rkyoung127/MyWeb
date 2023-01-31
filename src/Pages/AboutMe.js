@@ -1,3 +1,5 @@
+import SubAbout from "./SubAbout";
+
 const AboutMe = () => {
   return (
     <div id='aboutpage'>
@@ -11,8 +13,10 @@ const AboutMe = () => {
           <p>거주지: 경기도 용인시 수지구</p>
         </div>
         <div>
-          <p>여기는 버튼자리, 나중에 버튼태그로 바꿀 예정</p>
-          <button type="button" className="btn btn-outline-primary">자세히</button>
+          <button type="button" className="btn btn-outline-primary" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">자세히</button>
+        </div>
+        <div className="collapse" id="collapseExample">
+          <SubAbout />
         </div>
       </div>
     </div>
